@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #8C0203;
+    color: white;
+    align-items: center;
+}
+
+.Storyboard {
+    display: flex;
+    flex-direction: column;
+    background-color: #8C0203;
+    color: white;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.HomePage, .SelectSides, .RollDice, .DisplayNumber, .RollAgain {
+    display: flex;          /* image and text side by side */
+    align-items: center;    
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.HomePage img, .SelectSides img, .RollDice img, .DisplayNumber img, .RollAgain img {
+    width: 120px;   
+    height: auto;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* h3 above p */
+    margin-left: 10px;
+}
